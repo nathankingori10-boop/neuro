@@ -56,3 +56,25 @@ export default function TabLayout() {
     </Tabs>
   );
 }
+// import { Tabs } from 'expo-router';
+// import { MaterialIcons } from '@expo/vector-icons';
+
+// export default function TabsLayout() {
+//   return (
+//     <Tabs>
+//       <Tabs.Screen name="index" options={{ title: 'Dashboard' }} />
+//       <Tabs.Screen name="Statistics" options={{ title: 'Statistics' }} />
+//       <Tabs.Screen name="Notifications" options={{ title: 'Notifications' }} />
+//       {/* <Tabs.Screen name="Doctor" options={{ title: 'Doctors' }} /> */}
+//             <Tabs.Screen
+//         name="Doctor"
+//         options={{
+//           title: 'Doctor',
+//           tabBarIcon: ({ color }) => (
+//             <MaterialIcons name="insights" size={24} color={color} />
+//           ),
+//         }}
+//       />
+//     </Tabs>
+//   );
+// }

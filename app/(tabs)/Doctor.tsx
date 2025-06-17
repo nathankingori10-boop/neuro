@@ -234,3 +234,12 @@ const styles = StyleSheet.create({
   },
 });
 
+// import { View, Text } from 'react-native';
+
+// export default function Doctor() {
+//   return (
+//     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+//       <Text>Dashboard Page</Text>
+//     </View>
+//   );
+// }
