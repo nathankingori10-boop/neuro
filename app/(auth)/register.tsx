@@ -15,7 +15,7 @@ export default function Register() {
     }
 
     try {
-      const response = await axios.post('https://map-production-8a33.up.railway.app/api/register', {
+      const response = await axios.post('https://neurostep-production.up.railway.app/api/register', {
         username,
         password,
       });

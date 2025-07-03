@@ -75,7 +75,7 @@ export default function IndexScreen() {
 
   useEffect(() => {
     const fetchData = () => {
-      fetch('https://map-production-8a33.up.railway.app/api/sensor-data')
+      fetch('https://neurostep-production.up.railway.app/api/sensor-data')
         .then(res => res.json())
         .then(json => {
           const data = json.data;

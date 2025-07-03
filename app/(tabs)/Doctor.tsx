@@ -31,7 +31,7 @@ const DoctorsPage: React.FC = () => {
   const sendToeAngleToBackend = async (angle: number) => {
     if (angle !== lastSentAngle) {
       try {
-        await axios.post('https://map-production-8a33.up.railway.app/api/doctor-command', {
+        await axios.post('https://neurostep-production.up.railway.app/api/doctor-command', {
           //message: 'Toe adjustment',
           servoAngle: angle,
         });

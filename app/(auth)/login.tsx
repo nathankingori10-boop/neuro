@@ -47,7 +47,7 @@ export default function Login() {
     setLoading(true);
 
     try {
-      const response = await axios.post('https://map-production-8a33.up.railway.app/api/login', {
+      const response = await axios.post('https://neurostep-production.up.railway.app/api/login', {
         username,
         password,
       });

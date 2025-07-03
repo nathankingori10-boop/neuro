@@ -10,7 +10,7 @@ const Notifications = () => {
   const [notifications, setNotifications] = useState<Notification[]>([]);
 
   useEffect(() => {
-    fetch('https://map-production-8a33.up.railway.app/api/notifications')
+    fetch('https://neurostep-production.up.railway.app/api/notifications')
       .then((response) => response.json())
       .then((data) => {
         if (data.notifications) {

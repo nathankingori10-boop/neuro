@@ -32,7 +32,7 @@ const Statistics = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('https://map-production-8a33.up.railway.app/api/sensor-data');
+      const response = await axios.get('https://neurostep-production.up.railway.app/api/sensor-data');
       const backendData: SensorEntry[] = response.data.data;
 
       const temperature = backendData.filter(item => item.sensorType === 'Temperature').map(item => item.sensorValue);
