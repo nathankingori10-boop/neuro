@@ -6,7 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "scheme": "myapp",
     "newArchEnabled": true,
     "splash": {
@@ -17,21 +19,24 @@
     "ios": {
       "supportsTablet": true,
       "config": {
-        "googleMapsApiKey": "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg"
+        "googleMapsApiKey": "AIzaSyDKHgK8kU5gobpym4W4Y2REXifT7myS0FI"
       },
-      "bundleIdentifier": "com.nathan1015.neuro"
+      "bundleIdentifier": "com.nathan754.neuro"
     },
     "android": {
-      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.nathan1015.neuro",
+      "package": "com.nathan754.neuro",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg"
+          "apiKey": "AIzaSyDKHgK8kU5gobpym4W4Y2REXifT7myS0FI"
         }
       }
     },
@@ -43,11 +48,12 @@
         }
       }
     },
+    "owner": "nathan754",
     "extra": {
+      "router": {},
       "eas": {
-        "projectId": "804e01ea-ad4c-455b-afb4-9c1388691318"
+        "projectId": "676a957f-491c-4b7f-a1f2-e5b9b5eab93d"
       }
-    },
-    "owner": "nathan1015"
+    }
   }
 }

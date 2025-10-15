@@ -53,7 +53,7 @@ const DoctorsPage: React.FC = () => {
       setChatHistory(prevHistory => [...prevHistory, newMessage]);
   
       try {
-        await axios.post('https://map-production-8a33.up.railway.app/api/doctor-command', {
+        await axios.post('https://neurostep-production.up.railway.app/api/doctor-command', {
           message: trimmed,
           //servoAngle: toeAngle, // optional
         });
